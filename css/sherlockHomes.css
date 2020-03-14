@@ -1,0 +1,58 @@
+
+.navbar {
+    background-color: #262120;
+    border-bottom: 1px solid silver;
+}
+
+.navitem {
+    color: white;   
+}
+
+.jumbotron {
+    background-image: url("../resources/sherlockHolmesPort.jpg");
+    height: 120vh;
+    border-bottom: 5px solid black;
+    background-size: cover;  
+}
+
+.lead {
+    text-align: left;
+    margin-top: 25px;
+    color: whitesmoke;
+    text-shadow: 2px 1px black;
+   
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  white-space: pre-line;
+}
+
+#nameColor {
+    color: #c1ab7c;
+}
+
+#wording {
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 10px;
+}
+
+ footer {
+     height: 45px;
+     background-color: #262120;
+     border-top: 1px solid silver;
+     margin-top: 100px;
+ }
+
+#thead {
+    background-color: #262120; 
+    color: whitesmoke;
+}
+
+@media (orientation: landscape) {
+    .jumbotron {
+     background-image: url("../resources/sherlockHolmesLand.jpg");
+     height: 100vh;
+     background-position: center;
+     background-repeat: no-repeat;
+    }
+}

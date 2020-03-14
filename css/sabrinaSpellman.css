@@ -1,0 +1,62 @@
+
+.navbar {
+    background-color: black;
+    border-bottom: 1px solid silver;
+}
+
+.navitem {
+    color: white;
+}
+
+.jumbotron {
+    background-image: url("../resources/sabrinaSpellmanPort.jpg");
+    height: 135vh;
+    background-size: cover; 
+    background-color: black;
+    border-bottom: 5px solid black;
+}
+
+.lead {
+    text-align: left;
+    color: whitesmoke;
+    text-shadow: 2px 1px black;
+    margin-top: 25px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  white-space: pre-line;
+}
+
+#nameColor {
+    color: #ab131f;
+}
+
+#wording {
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 10px;
+}
+
+ th {
+    text-shadow: 1px 1px silver;
+}
+
+ footer {
+     height: 45px;
+     background-color: black;
+     border-top: 1px solid silver;
+     margin-top: 100px;
+ }
+
+#thead {
+    background-color: black; 
+    color: whitesmoke;
+}
+
+@media (orientation: landscape) {
+    .jumbotron {
+     background-image: url("../resources/sabrinaSpellman.jpg");
+     height: 130vh;
+     background-position: center;
+     background-repeat: no-repeat;
+    }
+}

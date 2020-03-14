@@ -1,0 +1,578 @@
+<!doctype html>
+<html id="html" lang="en">
+  <head>
+    <title>Sherlock Holmes</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Literata|Merriweather&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/sherlockHomes.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body onload="typeWriter()">
+  
+<!--   navbar b4 ---------------------->
+    <nav class="navbar navbar-dark sticky-top">
+
+            <div class="btn-group">
+                <button type="button" class="navbar-toggler btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="navbar-toggler-icon "></span>
+                   </button>
+                   <div class="dropdown-menu scrollable-menu" role="menu" id="t1">
+                    <a class="dropdown-item" href="./aceVentura.html">Ace Ventura</a>  
+                    <a class="dropdown-item" href="./allanQuatermain.html">Allan Quatermain</a>        
+                    <a class="dropdown-item" href="./ash.html">Ash</a>  
+                    <a class="dropdown-item" href="./austinPowers.html">Austin Powers</a> 
+                    <a class="dropdown-item" href="./axelFoley.html">Axel Foley</a> 
+                    <a class="dropdown-item" href="./bilboBaggins.html">Bilbo Baggins</a> 
+                    <a class="dropdown-item" href="./carrieBradshaw.html">Carrie Bradshaw</a>
+                    <a class="dropdown-item" href="./chucky.html">Chucky</a> 
+                    <a class="dropdown-item" href="./daleCooper.html">Dale Cooper</a> 
+                    <a class="dropdown-item" href="./dexterMorgan.html">Dexter Morgan</a> 
+                    <a class="dropdown-item" href="./dirtyHarry.html">Dirty Harry</a> 
+                    <a class="dropdown-item" href="./dominicToretto.html">Dominic Toretto</a> 
+                    <a class="dropdown-item" href="./ellenRipley.html">Ellen Ripley</a> 
+                    <a class="dropdown-item" href="./ericCartman.html">Eric Cartman</a>   
+                    <a class="dropdown-item" href="./ethanHunt.html">Ethan Hunt</a>  
+                    <a class="dropdown-item" href="./grinch.html">The Grinch</a>  
+                    <a class="dropdown-item" href="./hannibalLecter.html">Hannibal Lecter</a>
+                    <a class="dropdown-item" href="harryPotter.html">Harry Potter</a>
+                    <a class="dropdown-item" href="indianaJones.html">Indiana Jones</a>
+                    <a class="dropdown-item" href="./jackBauer.html">Jack Bauer</a>
+                    <a class="dropdown-item" href="./jackReacher.html">Jack Reacher</a>
+                    <a class="dropdown-item" href="./jackRyan.html">Jack Ryan</a>
+                    <a class="dropdown-item" href="./jackSparrow.html">Jack Sparrow</a>
+                    <a class="dropdown-item" href="jamesBond.html">James Bond</a>
+                    <a class="dropdown-item" href="./jasonBourne.html">Jason Bourne</a>
+                    <a class="dropdown-item" href="./jasonVoorhees.html">Jason Voorhees</a>
+                    <a class="dropdown-item" href="./jigsaw.html">Jigsaw</a>
+                    <a class="dropdown-item" href="./johnLuther.html">John Luther</a>
+                    <a class="dropdown-item" href="./johnMcclane.html">John McClane</a>
+                    <a class="dropdown-item" href="./katnissEverdeen.html">Katniss Everdeen</a>
+                    <a class="dropdown-item" href="./laraCroft.html">Lara Croft</a>
+                    <a class="dropdown-item" href="./malReynolds.html">Mal Reynolds</a>
+                    <a class="dropdown-item" href="./manWithNoName.html">Man With No Name</a>
+                    <a class="dropdown-item" href="./martyMcFly.html">Marty McFly</a>
+                    <a class="dropdown-item" href="./masterChief.html">Master Chief</a>
+                    <a class="dropdown-item" href="./michaelCorleone.html">Michael Corleone</a>
+                    <a class="dropdown-item" href="./mulderScully.html">Mulder and Scully</a>
+                    <a class="dropdown-item" href="./nathanDrake.html">Nathan Drake</a>
+                    <a class="dropdown-item" href="./neo.html">Neo</a>
+                    <a class="dropdown-item" href="./normanBates.html">Norman Bates</a>
+                    <a class="dropdown-item" href="Parker.html">Parker</a>
+                    <a class="dropdown-item" href="./philipMarlowe.html">Philip Marlowe</a>
+                    <a class="dropdown-item" href="./rambo.html">Rambo</a>
+                    <a class="dropdown-item" href="./rockyBalboa.html">Rocky Balboa</a>
+                    <a class="dropdown-item" href="./sabrinaSpellman.html">Sabrina Spellman</a>
+                    <a class="dropdown-item" href="./snakePlissken.html">Snake Plissken</a>
+                    <a class="dropdown-item" href="./taraChace.html">Tara Chace</a>
+                    <a class="dropdown-item" href="./terminator.html">Terminator</a>
+                    <a class="dropdown-item" href="./willyWonka.html">Willy Wonka</a>
+                    <div id="dropdiv">
+                        <a  id="upcred" class="dropdown-item" href="https://unsplash.com/photos/I_LgQ8JZFGE">Photo by João Silas</a>
+                </div>
+                  </div>
+                  </div>
+
+            <a  class="navitem text-decoration-none" href="#books">Books</a> 
+            <a class="navitem text-decoration-none" href="#movies">Movies</a> 
+            <a class="navitem text-decoration-none" href="#television">Television</a> 
+            <a class="navitem text-decoration-none" href="#video-games">Video Games</a>
+            
+      </nav> 
+      
+<!--- jumbotron b4 ------------------>
+      
+      <div class="jumbotron jumbotron-fluid ">
+            <div class="container" id="wording">
+              <h1 id="study" class="display-4">Character Study:<br> <span id="nameColor">Sherlock Holmes</span></h1>
+              <p class="lead" id="lead"></p>
+              
+            </div>
+          </div>
+
+<!--- book table b4 ------------------>
+<div>
+<h1 id="books" >Order of Sherlock Holmes Books</h1>
+       <table class="table table-bordered table-hover table-responsive-md text-center" >
+        <tbody>
+            <thead class="thead" id="thead">
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Free</th>
+            </tr>
+        </thead>
+            <tr>
+                <td class="title">A Study in Scarlet</td>
+                <td class="year">1887</td>
+                <td><a href="https://standardebooks.org/ebooks/arthur-conan-doyle/a-study-in-scarlet"><button id="ebook">Standard EBOOKS</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">The Sign of the Four</td>
+                <td class="year">1890</td>
+                <td><a href="https://standardebooks.org/ebooks/arthur-conan-doyle/the-sign-of-the-four"><button id="ebook">Standard EBOOKS</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">The Adventures of Sherlock Holmes</td>
+                <td class="year">1891</td>
+                <td><a href="https://standardebooks.org/ebooks/arthur-conan-doyle/the-adventures-of-sherlock-holmes"><button id="ebook">Standard EBOOKS</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">The Memoirs of Sherlock Holmes</td>
+                <td class="year">1892</td>
+                <td><a href="https://standardebooks.org/ebooks/arthur-conan-doyle/the-memoirs-of-sherlock-holmes"><button id="ebook">Standard EBOOKS</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">The Hound of the Baskervilles</td>
+                <td class="year">1901</td>
+                <td><a href="https://standardebooks.org/ebooks/arthur-conan-doyle/the-hound-of-the-baskervilles"><button id="ebook">Standard EBOOKS</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">The Return of Sherlock Holmes</td>
+                <td class="year">1903</td>
+                <td><a href="https://standardebooks.org/ebooks/arthur-conan-doyle/the-return-of-sherlock-holmes"><button id="ebook">Standard EBOOKS</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">The Valley of Fear</td>
+                <td class="year">1914</td>
+                <td><a href="https://standardebooks.org/ebooks/arthur-conan-doyle/the-valley-of-fear"><button id="ebook">Standard EBOOKS</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">His Last Bow: Some Later Reminiscences of Sherlock Holmes</td>
+                <td class="year">1917</td>
+                <td><a href="https://standardebooks.org/ebooks/arthur-conan-doyle/his-last-bow"><button id="ebook">Standard EBOOKS</button</a></td>
+            </tr>   
+        </tbody>
+       </table>
+       
+      <!--- movie table b4 ------------------>
+
+<h1 id="movies">Sherlock Holmes Movies</h1>
+<table class="table table-bordered table-hover table-responsive-md text-center">
+    <tbody>
+<thead class="thead" id="thead">
+ <tr>
+     <th>Title</th>
+     <th>Year</th>
+     <th>Stream/Buy</th>
+ </tr>
+</thead>
+ <tr>
+     <td class="title">Sherlock Holmes Baffled</td>
+     <td class="year">1900</td>
+     <td><a href="https://www.amazon.com/Sherlock-Holmes-Baffled-Arthur-Marvin/dp/B01MCSX3AH/ref=sr_1_1?keywords=sherlock+holmes+baffled&qid=1574271819&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+ </tr>
+ <tr>
+    <td class="title">Sherlock Holmes</td>
+    <td class="year">1916</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-1916"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+ <tr>
+     <td class="title">Der Hund von Baskerville</td>
+     <td class="year">1919</td>
+     <td><a href="https://www.amazon.com/Hund-von-Baskerville-Blu-ray/dp/B07KZKCQLK/ref=sr_1_fkmr0_1?keywords=Der+Hund+von+Baskerville+1919&qid=1574272707&s=movies-tv&sr=1-1-fkmr0"><button id="amazon">Amazon</button></a></td>
+ </tr>
+ <tr>
+     <td class="title">Sherlock Holmes</td>
+     <td class="year">1922</td>
+     <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-1922"><button id="justWatch">JustWatch</button></a></td>
+ </tr>
+ <tr>
+     <td class="title">Sherlock, Jr.</td>
+     <td class="year">1924</td>
+     <td><a href="https://www.justwatch.com/us/movie/sherlock-jr"><button id="justWatch">JustWatch</button></a></td>
+ </tr>
+ <tr>
+     <td class="title">Sherlock Holmes' Fatal Hour </td>
+     <td class="year">1931</td>
+     <td><a href="https://www.amazon.com/Sherlock-Holmes-Fatal-Arthur-Wontner/dp/B0777GRJ1M/ref=sr_1_1?keywords=Sherlock+Holmes%27+Fatal+Hour&qid=1574273576&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+ </tr>
+ <tr>
+     <td class="title">Sherlock Holmes and the Missing Rembrandt</td>
+     <td class="year">1932</td>
+     <td><a ><button id="Unavailable">Unavailable</button></a></td>
+ </tr>
+ <tr>
+     <td class="title">The Sign of Four: Sherlock Holmes' Greatest Case </td>
+     <td class="year">1932</td>
+     <td><a href="https://www.justwatch.com/us/movie/the-sign-of-four-sherlock-holmes-greatest-case"><button id="justWatch">JustWatch</button></a></td>
+ </tr>
+ <tr>
+     <td class="title">The Triumph of Sherlock Holmes</td>
+     <td class="year">1935</td>
+     <td><a href="https://www.amazon.com/Triumph-Sherlock-Holmes-Arthur-Wontner/dp/B000098ZRR/ref=sr_1_3?keywords=The+Triumph+of+Sherlock+Holmes&qid=1574274861&s=movies-tv&sr=1-3"><button id="amazon">Amazon</button></a></td>
+ </tr>
+ <tr>
+    <td class="title">Murder at the Baskervilles</td>
+    <td class="year">1937</td>
+    <td><a href="https://www.amazon.com/Murder-at-Baskervilles-Arthur-Wontner/dp/B00008ZL4R/ref=sr_1_3?keywords=Murder+at+the+Baskervilles&qid=1574275047&s=movies-tv&sr=1-3"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Hound of the Baskervilles</td>
+    <td class="year">1939</td>
+    <td><a href="https://www.justwatch.com/us/movie/the-hound-of-the-baskervilles-1939"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Adventures of Sherlock Holmes</td>
+    <td class="year">1939</td>
+    <td><a href="https://www.justwatch.com/us/movie/the-adventures-of-sherlock-holmes"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes and the Voice of Terror </td>
+    <td class="year">1942</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-and-the-voice-of-terror"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes and the Secret Weapon</td>
+    <td class="year">1942</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-and-the-secret-weapon"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes Faces Death</td>
+    <td class="year">1943</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-faces-death"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes in Washington</td>
+    <td class="year">1943</td>
+    <td><a href="https://www.amazon.com/Sherlock-Holmes-Washington-Basil-Rathbone/dp/B0000APVBM/ref=sr_1_3?keywords=Sherlock+Holmes+in+Washington&qid=1574275660&s=movies-tv&sr=1-3"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Spider Woman</td>
+    <td class="year">1943</td>
+    <td><a href="https://www.justwatch.com/us/movie/the-spider-woman"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Scarlet Claw </td>
+    <td class="year">1944</td>
+    <td><a href="https://www.amazon.com/Sherlock-Holmes-Scarlet-Basil-Rathbone/dp/B0000APVC7/ref=sr_1_1?keywords=The+Scarlet+Claw&qid=1574275875&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes in Pearl of Death</td>
+    <td class="year">1944</td>
+    <td><a href="https://www.amazon.com/Sherlock-Holmes-Pearl-Death-Rathbone/dp/B0000APVC5/ref=sr_1_1?keywords=The+Pearl+of+Death&qid=1574275992&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes in Pursuit To Algiers</td>
+    <td class="year">1945</td>
+    <td><a href="https://www.amazon.com/Sherlock-Holmes-Pursuit-Algiers-Rathbone/dp/B0000EMYKN/ref=sr_1_1?keywords=Pursuit+to+Algiers&qid=1574276306&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes - The House of Fear</td>
+    <td class="year">1945</td>
+    <td><a href="https://www.amazon.com/Sherlock-Holmes-House-Basil-Rathbone/dp/B0000APVC3/ref=sr_1_2?keywords=The+House+of+Fear&qid=1574276507&s=movies-tv&sr=1-2"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Woman in Green</td>
+    <td class="year">1945</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-and-the-woman-in-green"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Dressed to Kill</td>
+    <td class="year">1946</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-dressed-to-kill"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Terror by Night</td>
+    <td class="year">1946</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-in-terror-by-night"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes and the Deadly Necklace</td>
+    <td class="year">1962</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-and-the-deadly-necklace"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">A Study in Terror </td>
+    <td class="year">1965</td>
+    <td><a href="https://www.amazon.com/Study-Terror-BD-Blu-ray/dp/B079FLRC9G/ref=sr_1_1?keywords=A+Study+in+Terror&qid=1574278565&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Private Life of Sherlock Holmes </td>
+    <td class="year">1970</td>
+    <td><a href="https://www.justwatch.com/us/movie/the-private-life-of-sherlock-holmes"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Adventure of Sherlock Holmes' Smarter Brother</td>
+    <td class="year">1975</td>
+    <td><a href="https://www.amazon.com/Adventure-Sherlock-Smarter-Brother-Blu-ray/dp/B01HH4TI5E/ref=sr_1_3?keywords=The+Adventure+of+Sherlock+Holmes%27+Smarter+Brother&qid=1574278784&s=movies-tv&sr=1-3"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes in New York </td>
+    <td class="year">1976</td>
+    <td><a href="https://www.amazon.com/SHERLOCK-HOLMES-YORK-Roger-Moore/dp/B00MNU85L6/ref=sr_1_1?keywords=Sherlock+Holmes+in+New+York&qid=1574278918&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Seven-Per-Cent Solution </td>
+    <td class="year">1976</td>
+    <td><a href="https://www.amazon.com/Seven-Cent-Solution-Nicol-Williamson/dp/B07BNX2DGH/ref=sr_1_1?keywords=The+Seven-Per-Cent+Solution&qid=1574279057&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">Murder by Decree</td>
+    <td class="year">1979</td>
+    <td><a href="https://www.justwatch.com/us/movie/murder-by-decree"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes and the Masks of Death</td>
+    <td class="year">1984</td>
+    <td><a href="https://www.amazon.com/Sherlock-Holmes-Masks-Death-VHS/dp/B000057P1N/ref=sr_1_2?keywords=Sherlock+Holmes+and+the+Masks+of+Death&qid=1574279366&s=movies-tv&sr=1-2"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">Young Sherlock Holmes </td>
+    <td class="year">1985</td>
+    <td><a href="https://www.justwatch.com/us/movie/young-sherlock-holmes"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Great Mouse Detective </td>
+    <td class="year">1986</td>
+    <td><a href="https://www.justwatch.com/us/movie/the-great-mouse-detective"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Return of Sherlock Holmes</td>
+    <td class="year">1987</td>
+    <td><a href="https://www.amazon.com/Return-Sherlock-Holmes-Kevin-Connor/dp/B07WTZQ28J/ref=sr_1_3?crid=1ADBD25D3FBUO&keywords=return+of+sherlock+holmes&qid=1574279678&s=movies-tv&sprefix=return+of+sherlock%2Cmovies-tv%2C148&sr=1-3"><button id="amazon">Amazon</button></a></td>
+</tr>
+<tr>
+    <td class="title">Without a Clue</td>
+    <td class="year">1988</td>
+    <td><a href="https://www.justwatch.com/us/movie/without-a-clue"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes and the Leading Lady</td>
+    <td class="year">1991</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-and-the-leading-lady"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes: Incident at Victoria Falls</td>
+    <td class="year">1992</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-incident-at-victoria-falls"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes Returns</td>
+    <td class="year">1994</td>
+    <td><a ><button id="Unavailable">Unavailable</button></a></td>
+</tr>
+<tr>
+    <td class="title">The Case of the Whitechapel Vampire</td>
+    <td class="year">2002</td>
+    <td><a href="https://www.justwatch.com/us/movie/the-case-of-the-whitechapel-vampire"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Case of Evil</td>
+    <td class="year">2002</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-case-of-evil"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes and the Case of the Silk Stocking</td>
+    <td class="year">2004</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-and-the-case-of-the-silk-stocking"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes</td>
+    <td class="year">2009</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes</td>
+    <td class="year">2010</td>
+    <td><a href="https://www.justwatch.com/us/movie/sir-arthur-conan-doyles-sherlock-holmes"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes</td>
+    <td class="year">2011</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-2011"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Sherlock Holmes: A Game of Shadows</td>
+    <td class="year">2011</td>
+    <td><a href="https://www.justwatch.com/us/movie/sherlock-holmes-a-game-of-shadows"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+<tr>
+    <td class="title">Holmes & Watson: Madrid Days</td>
+    <td class="year">2012</td>
+    <td><a href="https://www.amazon.com/Holmes-Watson-Watson-Blu-Ray-Reg/dp/B00GP99FMY/ref=sr_1_1?keywords=Holmes+%26+Watson.+Madrid+Days&qid=1574281131&s=movies-tv&sr=1-1"><button id="amazon">Amazon</button></a></td>
+</tr>
+
+<tr>
+    <td class="title">Mr. Holmes</td>
+    <td class="year">2015</td>
+    <td><a href="https://www.justwatch.com/us/movie/mr-holmes"><button id="justWatch">JustWatch</button></a></td>
+</tr>
+</tbody>
+</table>      
+
+
+      <!--- television  table b4 ------------------>
+
+<h1 id="television" >Sherlock Holmes on Television </h1> 
+    <table class="table table-bordered table-hover table-responsive-md text-center" >
+        <tbody>
+                <thead class="thead" id="thead">
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Stream/Buy</th>
+            </tr>
+                </thead>
+                <tr>
+                    <td class="title">Sherlock</td>
+                    <td class="year">1954</td>
+                    <td><a href="https://www.justwatch.com/us/tv-show/sherlock-holmes-1955"><button id="justWatch">JustWatch</button></a></td>
+                </tr>
+                <tr>
+                    <td class="title">Sherlock Holmes</td>
+                    <td class="year">1964</td>
+                    <td><a href="https://www.justwatch.com/us/tv-show/sherlock-holmes"><button id="justWatch">JustWatch</button></a></td>
+                </tr>
+                <tr>
+                    <td class="title">The Adventures of Sherlock Holmes</td>
+                    <td class="year">1984</td>
+                    <td><a href="https://www.justwatch.com/us/tv-show/sherlock-holmes-1985"><button id="justWatch">JustWatch</button></a></td>
+                </tr>
+                <tr>
+                    <td class="title">The Return of Sherlock Holmes</td>
+                    <td class="year">1986</td>
+                    <td><a href="https://www.amazon.com/The-Empty-House/dp/B0037AQWKM/ref=sr_1_4?crid=1ADBD25D3FBUO&keywords=return+of+sherlock+holmes&qid=1574279678&s=movies-tv&sprefix=return+of+sherlock%2Cmovies-tv%2C148&sr=1-4"><button id="amazon">Amazon</button></a></td>
+                </tr>
+                <tr>
+                    <td class="title">Sherlock</td>
+                    <td class="year">2010</td>
+                    <td><a href="https://www.justwatch.com/us/tv-show/sherlock"><button id="justWatch">JustWatch</button></a></td>
+                </tr>
+                <tr>
+                    <td class="title">Elementary </td>
+                    <td class="year">2012</td>
+                    <td><a href="https://www.justwatch.com/us/tv-show/elementary"><button id="justWatch">JustWatch</button></a></td>
+                </tr>     
+        </tbody>
+
+    </table> 
+
+
+      <!--- video-games table b4 ------------------>
+
+<h1 id="video-games">Sherlock Holmes Video Games</h1>
+       <table class="table table-bordered table-hover table-responsive-md text-center" >
+           <tbody>
+                <thead class="thead" id="thead">
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Buy</th>
+            </tr>
+                </thead>
+            <tr>
+                <td class="title">Sherlock</td>
+                <td class="year">1984</td>
+                <td><a ><button id="Unavailable">Unavailable</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">221B Baker Street</td>
+                <td class="year">1986</td>
+                <td><a ><button id="Unavailable">Unavailable</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">Young Sherlock: The Legacy of Doyle </td>
+                <td class="year">1987</td>
+                <td><a ><button id="Unavailable">Unavailable</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock: The Riddle of the Crown Jewels</td>
+                <td class="year">1987</td>
+                <td><a href="https://www.amazon.com/s?k=Sherlock%3A+The+Riddle+of+the+Crown+Jewels&i=videogames&ref=nb_sb_noss"><button id="amazon">Amazon</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes: Consulting Detective</td>
+                <td class="year">1991</td>
+                <td><a href="https://www.amazon.com/Sherlock-Holmes-Consulting-Detective-Vol/dp/B001EH8TGK/ref=sr_1_3?keywords=Sherlock+Holmes%3A+Consulting+Detective&qid=1574365319&s=videogames&sr=1-3"><button id="amazon">Amazon</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes: Consulting Detective Vol. II</td>
+                <td class="year">1992</td>
+                <td><a href="https://www.amazon.com/Sherlock-Holmes-Consulting-Detective-II/dp/B000V975OY/ref=sr_1_7?keywords=Sherlock+Holmes%3A+Consulting+Detective&qid=1574365319&s=videogames&sr=1-7"><button id="amazon">Amazon</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes: Consulting Detective Vol. III</td>
+                <td class="year">1993</td>
+                <td><a href="https://www.amazon.com/Sherlock-Holmes-Consulting-Detective-III/dp/B000FP68B0/ref=sr_1_fkmr3_2?keywords=Sherlock+Holmes%3A+Consulting+Detective+v3&qid=1574365557&s=videogames&sr=1-2-fkmr3"><button id="amazon">Amazon</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">The Lost Files of Sherlock Holmes</td>
+                <td class="year">1994</td>
+                <td><a href="https://www.amazon.com/Lost-Files-Sherlock-Holmes-Serrated-pc/dp/B0007Z10QG/ref=sr_1_3?keywords=The+Lost+Files+of+Sherlock+Holmes&qid=1574365719&s=videogames&sr=1-3"><button id="amazon">Amazon</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo</td>
+                <td class="year">1996</td>
+                <td><a href="https://www.amazon.com/Lost-Files-Sherlock-Holmes-Tattoo-PC/dp/B0007YSOCK/ref=sr_1_1?keywords=The+Lost+Files+of+Sherlock+Holmes&qid=1574365622&s=videogames&sr=1-1"><button id="amazon">Amazon</button></a></td>
+            </tr>
+            
+            <tr>
+                <td class="title">Sherlock Holmes: The Mystery of the Mummy</td>
+                <td class="year">2003</td>
+                <td><a href="https://store.steampowered.com/app/11130/Sherlock_Holmes_The_Mystery_of_the_Mummy/"><button id="steam">STEAM</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes: The Silver Earring</td>
+                <td class="year">2004</td>
+                <td><a href="https://store.steampowered.com/app/11150/Sherlock_Holmes_The_Silver_Earring/"><button id="steam">STEAM</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes: The Awakened</td>
+                <td class="year">2007</td>
+                <td><a href="https://store.steampowered.com/app/11140/Sherlock_Holmes_The_Awakened__Remastered_Edition/"><button id="steam">STEAM</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes - Nemesis</td>
+                <td class="year">2008</td>
+                <td><a href="https://store.steampowered.com/app/11040/Sherlock_Holmes__Nemesis/"><button id="steam">STEAM</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes Versus Jack the Ripper</td>
+                <td class="year">2009</td>
+                <td><a href="https://store.steampowered.com/app/11190/Sherlock_Holmes_versus_Jack_the_Ripper/"><button id="steam">STEAM</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes and the Mystery of Osborne House</td>
+                <td class="year">2010</td>
+                <td><a href="https://www.amazon.com/Sherlock-Holmes-Mystery-Osborne-Nintendo-DS/dp/B00438VWRU/ref=sr_1_1?keywords=Sherlock+Holmes+and+the+Mystery+of+Osborne+House&qid=1574366725&s=videogames&sr=1-1"><button id="amazon">Amazon</button></a></td>
+            </tr>
+            <tr>
+                <td class="title">The Testament of Sherlock Holmes</td>
+                <td class="year">2012</td>
+                <td><a href="https://store.steampowered.com/app/205650/The_Testament_of_Sherlock_Holmes/"><button id="steam">STEAM</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes: Crimes and Punishments</td>
+                <td class="year">2014</td>
+                <td><a href="https://store.steampowered.com/app/241260/Sherlock_Holmes_Crimes_and_Punishments/"><button id="steam">STEAM</button</a></td>
+            </tr>
+            <tr>
+                <td class="title">Sherlock Holmes: The Devil's Daughter</td>
+                <td class="year">2016</td>
+                <td><a href="https://store.steampowered.com/app/350640/Sherlock_Holmes_The_Devils_Daughter/"><button id="steam">STEAM</button</a></td>
+            </tr>  
+           </tbody>
+       </table>
+
+
+</div>
+
+<footer>
+    <a class="navlogo" id="copy">&copy 2019-20</a>   <a class="navlogo" id="logoS">S<span id="logoJ">Jellen</span></a>
+
+</footer>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="sherlockHolmes.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

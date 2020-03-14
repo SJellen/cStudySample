@@ -1,0 +1,105 @@
+<!doctype html>
+<html id="html" lang="en">
+  <head>
+    <title>Character Study</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Literata|Merriweather&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body onload="typeWriter()">
+  
+<!--   navbar b4 ---------------------->
+    <nav class="navbar navbar-dark sticky-top">
+
+        <div class="btn-group">
+            <button type="button" class="navbar-toggler btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="navbar-toggler-icon "></span>
+               </button>
+               <div class="dropdown-menu scrollable-menu" role="menu" id="t1">
+                <a class="dropdown-item" href="./aceVentura.html">Ace Ventura</a>   
+                <a class="dropdown-item" href="./allanQuatermain.html">Allan Quatermain</a>    
+                <a class="dropdown-item" href="./ash.html">Ash</a> 
+                <a class="dropdown-item" href="./austinPowers.html">Austin Powers</a> 
+                <a class="dropdown-item" href="./axelFoley.html">Axel Foley</a> 
+                <a class="dropdown-item" href="./bilboBaggins.html">Bilbo Baggins</a> 
+                <a class="dropdown-item" href="./carrieBradshaw.html">Carrie Bradshaw</a> 
+                <a class="dropdown-item" href="./chucky.html">Chucky</a> 
+                <a class="dropdown-item" href="./daleCooper.html">Dale Cooper</a> 
+                <a class="dropdown-item" href="./dexterMorgan.html">Dexter Morgan</a> 
+                <a class="dropdown-item" href="./dirtyHarry.html">Dirty Harry</a> 
+                <a class="dropdown-item" href="./dominicToretto.html">Dominic Toretto</a> 
+                <a class="dropdown-item" href="./ellenRipley.html">Ellen Ripley</a>  
+                <a class="dropdown-item" href="./ericCartman.html">Eric Cartman</a>  
+                <a class="dropdown-item" href="./ethanHunt.html">Ethan Hunt</a>  
+                <a class="dropdown-item" href="./grinch.html">The Grinch</a>  
+                <a class="dropdown-item" href="./hannibalLecter.html">Hannibal Lecter</a>
+                <a class="dropdown-item" href="./harryPotter.html">Harry Potter</a>
+                <a class="dropdown-item" href="./indianaJones.html">Indiana Jones</a>
+                <a class="dropdown-item" href="./jackBauer.html">Jack Bauer</a>
+                <a class="dropdown-item" href="./jackReacher.html">Jack Reacher</a>
+                <a class="dropdown-item" href="./jackRyan.html">Jack Ryan</a>
+                <a class="dropdown-item" href="./jamesBond.html">James Bond</a>
+                <a class="dropdown-item" href="./jasonBourne.html">Jason Bourne</a>
+                <a class="dropdown-item" href="./jasonVoorhees.html">Jason Voorhees</a>
+                <a class="dropdown-item" href="./jigsaw.html">Jigsaw</a>
+                <a class="dropdown-item" href="./johnLuther.html">John Luther</a>
+                <a class="dropdown-item" href="./johnMcclane.html">John McClane</a>
+                <a class="dropdown-item" href="./katnissEverdeen.html">Katniss Everdeen</a>
+                <a class="dropdown-item" href="./laraCroft.html">Lara Croft</a>
+                <a class="dropdown-item" href="./malReynolds.html">Mal Reynolds</a>
+                <a class="dropdown-item" href="./manWithNoName.html">Man With No Name</a>
+                <a class="dropdown-item" href="./martyMcFly.html">Marty McFly</a>
+                <a class="dropdown-item" href="./masterChief.html">Master Chief</a>
+                <a class="dropdown-item" href="./michaelCorleone.html">Michael Corleone</a>
+                <a class="dropdown-item" href="./mulderScully.html">Mulder and Scully</a>
+                <a class="dropdown-item" href="./nathanDrake.html">Nathan Drake</a>
+                <a class="dropdown-item" href="./neo.html">Neo</a>
+                <a class="dropdown-item" href="./normanBates.html">Norman Bates</a>
+                <a class="dropdown-item" href="./Parker.html">Parker</a>
+                <a class="dropdown-item" href="./philipMarlowe.html">Philip Marlowe</a>
+                <a class="dropdown-item" href="./rambo.html">Rambo</a>
+                <a class="dropdown-item" href="./rockyBalboa.html">Rocky Balboa</a>
+                <a class="dropdown-item" href="./sabrinaSpellman.html">Sabrina Spellman</a>
+                <a class="dropdown-item" href="./sherlockHolmes.html">Sherlock Holmes</a>
+                <a class="dropdown-item" href="./snakePlissken.html">Snake Plissken</a>
+                <a class="dropdown-item" href="./taraChace.html">Tara Chace</a>
+                <a class="dropdown-item" href="./terminator.html">Terminator</a>
+                <a class="dropdown-item" href="./willyWonka.html">Willy Wonka</a>
+                <div id="dropdiv">
+                    <a  id="upcred" class="dropdown-item" href="https://unsplash.com/photos/DbMf1RtOloY">Photo by John Salvino</a>
+            </div>
+              </div>
+              </div>
+      
+      </nav> 
+      
+<!--- jumbotron b4 ------------------>
+      
+      <div class="jumbotron jumbotron-fluid ">
+        <div class="container" id="wording">
+              <h1 id="study" class="display-4">Character Study:<br><span id="sequence"></span></h1>
+              <p class="lead" id="lead"></p>
+        </div> 
+            
+         </div>
+       
+<footer>
+    <a class="navlogo" id="copy">&copy 2019-2020</a>   <a class="navlogo" id="logoS">S<span id="logoJ">Jellen</span></a>
+
+</footer>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="index.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
